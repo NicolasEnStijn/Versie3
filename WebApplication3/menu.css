@@ -1,0 +1,43 @@
+﻿body {
+}
+
+.hovercontent
+{
+    background-image: url(http://www.ardovlam.be/images/bghover.png);
+    padding: 10px;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    margin-top: -10px;
+}
+#logo
+{
+        display:inline-block;
+    margin-left: 10%;
+    width: 50%;
+    margin-right: 10%;
+}
+article
+{
+    display:inline-block;
+    margin-left: 10%;
+    width: 30%;
+    margin-right: 10%;
+}
+
+.five-col-grid > * {
+width: auto;
+margin-top: 4%;
+height: auto;
+}
+.center-cell {
+    text-align: center;
+    color: #fff;
+}
+
+img{
+    height:auto;
+    width:100%;
+
+}
+

@@ -1,0 +1,83 @@
+﻿body {
+}
+
+div{
+    width :100%;
+}
+
+form{
+    width:100%;
+}
+
+.sort{
+    width:48%;
+}
+
+text{
+    width:50%;
+}
+
+table{
+    border-collapse:collapse;
+    background-color: rgb(151, 215, 0);
+    width : 100%;
+}
+
+tr:nth-child(1)
+{
+    background-color:rgb(122, 154, 1);
+}
+
+th,td{
+    text-align:left;
+    padding:8px;
+}
+
+.top{
+
+    background-color:rgba(0,0,0,0);
+    border:0;
+}
+
+tr:nth-child(even){
+    background-color:rgb(197, 232, 108);
+}
+td{
+    width : auto;
+    height:20px;
+}
+
+img
+{
+    max-width: 10%;
+    max-height: 10%;
+    transform: scale(10);
+    margin: 0 auto;
+    display:block;
+
+}
+
+
+.open{
+    width:15%;
+}
+
+.naam{
+    width:35%;
+}
+
+.stad{
+    width:35%;
+}
+
+.icon{
+    width:15%;
+}
+
+input{
+    width:100%;
+}
+
+tr{
+    height:20px;
+}
