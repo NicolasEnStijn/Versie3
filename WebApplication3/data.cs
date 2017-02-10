@@ -28,7 +28,7 @@ namespace WebApplication3
                     if (p == null)
                     {
                         //string xml = File.ReadAllText(@"C:\Users\Nicolas\Documents\VIVES\stage\remoteprojects.xml");
-                        string xml = File.ReadAllText(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\stage\remoteprojects.xml");
+                        string xml = File.ReadAllText(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\remoteprojects.xml");
                         var catalog1 = xml.ParseXML<remoteprojects>();
                         p = (remoteprojects)catalog1;
                         rp = new remoteprojectsProject[p.projects.Count() - 1];

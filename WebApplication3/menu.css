@@ -20,15 +20,15 @@
 article
 {
     display:inline-block;
-    margin-left: 10%;
-    width: 30%;
-    margin-right: 10%;
+    margin-left: 14%;
+    width: 20%;
+    margin-right: 14%;
 }
 
-.five-col-grid > * {
-width: auto;
-margin-top: 4%;
-height: auto;
+.hovergrid five-col-grid > * {
+    width: 50%;
+    margin-top: 4%;
+    height: auto;
 }
 .center-cell {
     text-align: center;
